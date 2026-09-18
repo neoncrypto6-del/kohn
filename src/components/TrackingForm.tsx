@@ -44,7 +44,7 @@ export function TrackingForm({
         <button
           type="submit"
           disabled={loading || !value.trim()}
-          className="inline-flex h-16 shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-md bg-gold-500 px-7 font-display text-sm font-bold uppercase tracking-wide text-ink-900 transition-colors duration-150 ease-out hover:bg-gold-400 disabled:cursor-not-allowed disabled:opacity-50 sm:h-14">
+          className="inline-flex h-14 shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-md bg-gold-500 px-7 font-display text-sm font-bold uppercase tracking-wide text-ink-900 transition-colors duration-150 ease-out hover:bg-gold-400 disabled:cursor-not-allowed disabled:opacity-50 sm:h-12">
           
           {loading ?
           <Loader2Icon className="h-4 w-4 animate-spin" aria-hidden="true" /> :
