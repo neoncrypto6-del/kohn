@@ -39,7 +39,7 @@ export function TrackingForm({
           placeholder="e.g. KST-26-7QH4M2XP"
           value={value}
           onChange={(event) => setValue(event.target.value)}
-          className="h-16 flex-1 rounded-md border border-white/15 bg-white/5 px-4 font-medium uppercase tracking-wide text-white placeholder:normal-case placeholder:tracking-normal placeholder:text-ink-400 focus:border-gold-400 focus:outline-none focus:ring-2 focus:ring-gold-500/40 sm:h-14" />
+          className="h-18 flex-1 rounded-md border border-white/15 bg-white/5 px-4 font-medium uppercase tracking-wide text-white placeholder:normal-case placeholder:tracking-normal placeholder:text-ink-400 focus:border-gold-400 focus:outline-none focus:ring-2 focus:ring-gold-500/40 sm:h-14" />
         
         <button
           type="submit"
