@@ -39,12 +39,12 @@ export function TrackingForm({
           placeholder="e.g. KST-26-7QH4M2XP"
           value={value}
           onChange={(event) => setValue(event.target.value)}
-          className="h-18 flex-1 rounded-md border border-white/15 bg-white/5 px-4 font-medium uppercase tracking-wide text-white placeholder:normal-case placeholder:tracking-normal placeholder:text-ink-400 focus:border-gold-400 focus:outline-none focus:ring-2 focus:ring-gold-500/40 sm:h-14" />
+          className="h-16 flex-1 rounded-md border border-white/15 bg-white/5 px-4 font-medium uppercase tracking-wide text-white placeholder:normal-case placeholder:tracking-normal placeholder:text-ink-400 focus:border-gold-400 focus:outline-none focus:ring-2 focus:ring-gold-500/40" />
         
         <button
           type="submit"
           disabled={loading || !value.trim()}
-          className="inline-flex h-14 shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-md bg-gold-500 px-7 font-display text-sm font-bold uppercase tracking-wide text-ink-900 transition-colors duration-150 ease-out hover:bg-gold-400 disabled:cursor-not-allowed disabled:opacity-50 sm:h-12">
+          className="inline-flex h-16 shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-md bg-gold-500 px-7 font-display text-sm font-bold uppercase tracking-wide text-ink-900 transition-colors duration-150 ease-out hover:bg-gold-400 disabled:cursor-not-allowed disabled:opacity-50">
           
           {loading ?
           <Loader2Icon className="h-4 w-4 animate-spin" aria-hidden="true" /> :
